@@ -43,6 +43,7 @@ import org.springframework.web.servlet.support.RequestContext;
  * @see AbstractTemplateViewResolver
  * @see org.springframework.web.servlet.view.freemarker.FreeMarkerView
  */
+//akira
 public abstract class AbstractTemplateView extends AbstractUrlBasedView {
 
 	/**

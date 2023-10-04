@@ -28,6 +28,7 @@ import org.springframework.lang.Nullable;
  * @author Juergen Hoeller
  * @since 13.12.2003
  */
+//akira
 public abstract class AbstractUrlBasedView extends AbstractView implements InitializingBean {
 
 	@Nullable

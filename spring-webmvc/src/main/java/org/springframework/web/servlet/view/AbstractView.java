@@ -59,6 +59,7 @@ import org.springframework.web.servlet.support.RequestContext;
  * @see #setAttributesMap
  * @see #renderMergedOutputModel
  */
+// akira
 public abstract class AbstractView extends WebApplicationObjectSupport implements View, BeanNameAware {
 
 	/** Default content type. Overridable as bean property. */
