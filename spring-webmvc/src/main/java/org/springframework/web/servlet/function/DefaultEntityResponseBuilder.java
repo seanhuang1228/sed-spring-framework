@@ -1,3 +1,5 @@
+// rabhunter
+
 /*
  * Copyright 2002-2023 the original author or authors.
  *
@@ -272,7 +274,7 @@ final class DefaultEntityResponseBuilder<T> implements EntityResponse.Builder<T>
 			return null;
 		}
 
-		@SuppressWarnings({ "unchecked", "resource", "rawtypes" })
+	@SuppressWarnings({ "unchecked", "resource", "rawtypes" })
 		protected void writeEntityWithMessageConverters(Object entity, HttpServletRequest request,
 				HttpServletResponse response, ServerResponse.Context context)
 				throws ServletException, IOException {
